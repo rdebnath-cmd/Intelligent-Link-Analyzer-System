@@ -1,0 +1,7 @@
+https://google.com | Working | Secure (HTTPS) | No
+https://secure-login-bank.com | Broken | Secure (HTTPS) | Yes (Contains 'login')
+https://example.com/this/is/a/very/very/very/very/very/long/url/test | Broken | Secure (HTTPS) | Yes (Too Long)
+https://thiswebsitedoesnotexist12345.com | Broken | Secure (HTTPS) | No
+https://example.com/this/is/a/very/very/very/very/very/long/url/test | Broken | Secure (HTTPS) | Yes (Too Long)
+https://thiswebsitedoesnotexist12345.com | Broken | Secure (HTTPS) | No
+https://example.com/this/is/a/very/very/very/very/very/long/url/test | Broken | Secure (HTTPS) | Yes (Too Long) | Broken | Secure (HTTPS) | Yes (Too Long)
