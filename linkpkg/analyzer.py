@@ -1,5 +1,5 @@
 import urllib.request
-
+import urllib.error
 
 def check_status(url):
     """Check if URL is working or broken"""
@@ -9,5 +9,9 @@ def check_status(url):
             return "Working"
         else:
             return f"Error Code: {response.status}"
-    except:
-        return "Broken"
+    except urllib.error.HTTPError as e:
+        return f"HTTP Error: {e.code}"
+    except urllib.error.URLError as e:
+        return f"URL Error: {e.reason}"
+    except Exception as e:
+        return f"Unexpected Error: {e}"

@@ -1,0 +1,20 @@
+[
+    {
+        "url": "https://www.python.org ",
+        "status": "Working",
+        "security": "Secure (HTTPS)",
+        "suspicious": "No"
+    },
+    {
+        "url": "http://example.com",
+        "status": "Working",
+        "security": "Not Secure (HTTP)",
+        "suspicious": "No"
+    },
+    {
+        "url": "https://thiswebsitedoesnotexist12345.com",
+        "status": "URL Error: [Errno 11001] getaddrinfo failed",
+        "security": "Secure (HTTPS)",
+        "suspicious": "No"
+    }
+]
